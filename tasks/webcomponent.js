@@ -21,12 +21,12 @@ module.exports = function(grunt) {
 
     var data = this.data,
         options = data.options,
-        file = data.file,
+        files = data.files.src,
         outFileName = options && options.out,
         minify = options && options.minify,
         indentSize = options && options.indent;
 
-    var packer = pack(file).minify(minify);
+    var packer = pack(files).minify(minify);
     if(indentSize) {
       packer.indent(indentSize);
     }

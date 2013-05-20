@@ -33,7 +33,7 @@
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-nodeunit": "~0.1.2",
     "grunt": "~0.4.1",
-    "wcpack": "~0.0.5"
+    "wcpack": "~0.1.0"
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
